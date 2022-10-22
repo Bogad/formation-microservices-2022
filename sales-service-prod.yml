@@ -11,8 +11,8 @@ spring:
       ddl-auto: update
   datasource:
     url: jdbc:mysql://${MYSQL_HOST:localhost}:3306/sales_db?useUnicode=true&characterEncoding=utf8&serverTimezone=UTC
-    username: root
-    password: admin
+    username: {cipher}ea081315705ca31307f0d86f73af404cc52a89293dc4755901c2f4d1e5964426
+    password: {cipher}7251bb5bd15ab34e57da52e8eed7d8928e25bf529055f99e084d9b9e28c6511d
   zipkin:
     baseUrl: http://localhost:9411
   sleuth:
