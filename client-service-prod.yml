@@ -10,8 +10,8 @@ spring:
       ddl-auto: update
   datasource:
     url: jdbc:mysql://${MYSQL_HOST:localhost}:3306/clients_db?useUnicode=true&characterEncoding=utf8&serverTimezone=UTC
-    username: {cipher}9aa053309bfc3245bdae42574cdd67e477a342adf66300a2bce9b70fa0a8aff1
-    password: {cipher}31eb3ef508b8bd09b71290fd075342014bcf2a84cd589d979d82427c7001f9d8
+    username: '{cipher}9aa053309bfc3245bdae42574cdd67e477a342adf66300a2bce9b70fa0a8aff1'
+    password: '{cipher}31eb3ef508b8bd09b71290fd075342014bcf2a84cd589d979d82427c7001f9d8'
   zipkin:
     baseUrl: http://localhost:9411
   sleuth:
